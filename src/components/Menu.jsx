@@ -1,7 +1,13 @@
 import React from "react";
+import PizzaList from "./PizzaList";
 
 function Menu() {
-  return <h2>Our Menu</h2>;
+  return (
+    <main className="menu">
+      <h2>Our Menu</h2>
+      <PizzaList />
+    </main>
+  );
 }
 
 export default Menu;
