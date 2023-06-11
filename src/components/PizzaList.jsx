@@ -4,10 +4,11 @@ import Pizza from "./Pizza";
 
 function PizzaList() {
   return (
-    <div>
-      {pizzaData.map((pizza, idx) => {
-        return <Pizza key={idx} pizza={pizza} />;
-      })}
+    <div className="pizzas">
+      {pizzaData.length > 0 &&
+        pizzaData.map((pizza, idx) => {
+          return <Pizza key={idx} pizza={pizza} />;
+        })}
     </div>
   );
 }
