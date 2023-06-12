@@ -1,3 +1,5 @@
+![image](https://github.com/cipriancozma/react-pizza/assets/38767799/686942bf-bc2c-46a1-8e9e-50a7177d73f4)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
